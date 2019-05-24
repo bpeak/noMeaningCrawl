@@ -13,6 +13,7 @@ const sender = async(msg) => {
         }, 
         function(err, res){
             if(err){
+                console.log(err)
                 throw err
             }
             if(res.ok === true){
